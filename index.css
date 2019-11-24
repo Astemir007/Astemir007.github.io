@@ -1,0 +1,84 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.header{
+    background-color: rgba(224, 11, 22, 0.644);
+color: white;
+font-weight:bold;
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:center;
+
+}
+.banner{
+    background: url(https://lp-cms-production.imgix.net/2019-06/55425108.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4);
+    display:flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    color: white;
+padding: 300px;
+}
+a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+.banner-text{
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.menu{
+    display:flex;
+    justify-content:space-evenly;
+    width:100%;
+
+}
+.header-logo{
+    display:flex;
+    
+}
+.footer{
+    background-image: url(https://sun9-38.userapi.com/c857536/v857536180/82ddf/kEgMj3EHTCA.jpg
+    );
+    margin-top: 50px;
+    padding: 100px;
+    color: white;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+@media screen and (max-width:650px){
+    .menu{
+        display:none;
+    }
+.menu-link {
+    flex-wrap:wrap;
+}
+
+}
+.tasks {
+    display:flex;
+    margin:auto;
+    flex-direction:column;
+}
+.task {
+    display:flex;
+}
+.task-right {
+    margin-left: 10px;
+}
+social-icons {
+    display: flex;
+    }
+    
+    .social-icons img {
+    width: 50px;
+    filter: invert(100%);
+    margin: 10px;
+    }
